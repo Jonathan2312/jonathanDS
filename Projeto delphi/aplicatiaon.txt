@@ -1,0 +1,2 @@
+ ShellExecute(Application.Handle, 'open', 'calc.exe', '', nil, SW_SHOWNORMAL);
+use shellapi

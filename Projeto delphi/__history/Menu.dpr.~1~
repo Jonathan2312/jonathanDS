@@ -1,0 +1,14 @@
+program Menu;
+
+uses
+  Vcl.Forms,
+  CodigoMenu in 'CodigoMenu.pas' {FrmMenupp};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmMenupp, FrmMenupp);
+  Application.Run;
+end.

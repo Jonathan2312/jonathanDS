@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/10/01 19:30:22.000.679,=C:\Users\Aluno-E1\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/01 19:48:58.000.682,C:\Users\Aluno-E1\Documents\Embarcadero\Studio\Projects\Unit1.dfm=F:\Etec\progamação de algoritimos\Algoritimos\untVerrificador.dfm</Transaction>
+    <Transaction>2019/10/01 19:48:58.000.682,C:\Users\Aluno-E1\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\Etec\progamação de algoritimos\Algoritimos\untVerrificador.pas</Transaction>
+    <Transaction>2019/10/01 19:49:59.000.427,C:\Users\Aluno-E1\Documents\Embarcadero\Studio\Projects\Project1.dproj=F:\Etec\progamação de algoritimos\Algoritimos\verificador\Projectverificador.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

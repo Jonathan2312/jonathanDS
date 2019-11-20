@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/11/19 20:33:26.000.476,=C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/19 20:41:55.000.617,C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.pas=G:\Projeto delphi\CodigoMenu.pas</Transaction>
+    <Transaction>2019/11/19 20:41:55.000.617,C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Unit1.dfm=G:\Projeto delphi\CodigoMenu.dfm</Transaction>
+    <Transaction>2019/11/19 20:42:27.000.988,C:\Users\Aluno\Documents\Embarcadero\Studio\Projects\Project1.dproj=G:\Projeto delphi\Menu.dproj</Transaction>
+    <Transaction>2019/11/19 21:30:11.000.516,=G:\Projeto delphi\aplicaçao\Ext linear\Calculadora\untCalculadora.pas</Transaction>
+    <Transaction>2019/11/19 21:37:14.000.013,=G:\Projeto delphi\aplicaçao\Ext linear\Semáforo\untSemaforo.pas</Transaction>
+    <Transaction>2019/11/19 22:28:57.469,=G:\Projeto delphi\aplicaçao\Ext linear\MáximoMínimo\untMaxMin.pas</Transaction>
+    <Transaction>2019/11/19 22:33:12.932,G:\Projeto delphi\aplicaçao\Ext linear\Semáforo\untSemaforo.pas=</Transaction>
+    <Transaction>2019/11/19 22:33:31.117,=G:\Projeto delphi\aplicaçao\Ext Rep\Tabuada\UnitTabuada.pas</Transaction>
+    <Transaction>2019/11/19 22:44:49.433,=G:\Projeto delphi\Unit1.pas</Transaction>
+    <Transaction>2019/11/19 22:46:59.844,G:\Projeto delphi\UntSobreMin.pas=G:\Projeto delphi\Unit1.pas</Transaction>
+    <Transaction>2019/11/19 22:46:59.844,G:\Projeto delphi\UntSobreMin.dfm=G:\Projeto delphi\Unit1.dfm</Transaction>
+    <Transaction>2019/11/19 23:10:55.008,=G:\Projeto delphi\aplicaçao\Cadastro\untPrincipal.pas</Transaction>
+  </Transactions>
+</BorlandProject>

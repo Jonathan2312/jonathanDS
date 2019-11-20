@@ -1,0 +1,18 @@
+program Menu;
+
+uses
+  Vcl.Forms,
+  CodigoMenu in 'CodigoMenu.pas' {FrmMenupp},
+  untCalculadora in 'aplicaçao\Ext linear\Calculadora\untCalculadora.pas' {frmCalculadora},
+  untSemaforo in 'aplicaçao\Ext linear\Semáforo\untSemaforo.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmMenupp, FrmMenupp);
+  Application.CreateForm(TfrmCalculadora, frmCalculadora);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

@@ -1,0 +1,122 @@
+unit CodigoMenu;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Shellapi, UntCalculadora, UntPrincipal, UntMaxMin, UnitTabuada, untSobreMin;
+
+type
+  TFrmMenupp = class(TForm)
+    MainMenu1: TMainMenu;
+    Cadastrar1: TMenuItem;
+    Usuariao1: TMenuItem;
+    Produto1: TMenuItem;
+    Aplicaes1: TMenuItem;
+    ExtLinear1: TMenuItem;
+    ExtRepetio1: TMenuItem;
+    Ext1: TMenuItem;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    Calculadora1: TMenuItem;
+    MaiorouMenor1: TMenuItem;
+    abuada1: TMenuItem;
+    Ultilitarios1: TMenuItem;
+    Sobre1: TMenuItem;
+    Sair1: TMenuItem;
+    Calculadora2: TMenuItem;
+    Navegadores1: TMenuItem;
+    Calendario1: TMenuItem;
+    GoogleChrome1: TMenuItem;
+    InternetExplorer1: TMenuItem;
+    SobreMin1: TMenuItem;
+    procedure Calculadora2Click(Sender: TObject);
+    procedure GoogleChrome1Click(Sender: TObject);
+    procedure InternetExplorer1Click(Sender: TObject);
+    procedure Calculadora1Click(Sender: TObject);
+    procedure MaiorouMenor1Click(Sender: TObject);
+    procedure abuada1Click(Sender: TObject);
+    procedure SobreMin1Click(Sender: TObject);
+    procedure Usuariao1Click(Sender: TObject);
+    procedure Sair1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmMenupp: TFrmMenupp;
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure TFrmMenupp.abuada1Click(Sender: TObject);
+begin
+     if FrmTabuada = nil then
+  begin
+    application.CreateForm(TFrmTabuada, FrmTabuada);
+  end;
+  FrmTabuada.show;
+end;
+
+procedure TFrmMenupp.Calculadora1Click(Sender: TObject);
+begin
+  if frmCalculadora = nil then
+  begin
+    application.CreateForm(TfrmCalculadora, frmCalculadora);
+  end;
+  frmCalculadora.show;
+end;
+
+procedure TFrmMenupp.Calculadora2Click(Sender: TObject);
+begin
+ ShellExecute(Application.Handle , 'open', 'calc.exe', ' ', nil, SW_SHOWNORMAL);
+end;
+
+procedure TFrmMenupp.GoogleChrome1Click(Sender: TObject);
+begin
+  ShellExecute(Application.Handle , 'open', 'chrome.exe', 'www.google.com ', nil, SW_SHOWNORMAL);
+end;
+
+procedure TFrmMenupp.InternetExplorer1Click(Sender: TObject);
+begin
+ShellExecute(Application.Handle , 'open', 'iexplore.exe', ' ', nil, SW_SHOWNORMAL);
+end;
+
+procedure TFrmMenupp.MaiorouMenor1Click(Sender: TObject);
+begin
+    if FrmMaxMin = nil then
+  begin
+    application.CreateForm(TFrmMaxMin, FrmMaxMin);
+  end;
+  FrmMaxMin.show;
+end;
+
+procedure TFrmMenupp.Sair1Click(Sender: TObject);
+begin
+Application.Terminate;
+end;
+
+procedure TFrmMenupp.SobreMin1Click(Sender: TObject);
+begin
+     if FrmSobremin = nil then
+  begin
+    application.CreateForm(TFrmSobremin, FrmSobremin);
+  end;
+  FrmSobremin.show;
+end;
+
+procedure TFrmMenupp.Usuariao1Click(Sender: TObject);
+begin
+      if FrmCadastro = nil then
+  begin
+    application.CreateForm(TFrmCadastro, FrmCadastro);
+  end;
+  FrmCadastro.show;
+end;
+
+end.
